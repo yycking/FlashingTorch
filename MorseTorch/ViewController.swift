@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let button = UIButton(type: .Custom)
+        button.frame = UIScreen.mainScreen().bounds
+        button.setTitle("🔦", forState: UIControlState.Normal)
+        button.titleLabel!.font =  UIFont(name: "HelveticaNeue-Thin", size: 100)
+        button.addTarget(self, action: "buttonPressed", forControlEvents: .TouchUpInside)
+        view.addSubview(button)
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +27,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func buttonPressed() {
+        FlashingTorch(text: "SOS").start()
+    }
 }
 

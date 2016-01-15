@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		F2E08F391C44B093006BEB1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E08F381C44B093006BEB1D /* AppDelegate.swift */; };
 		F2E08F3B1C44B093006BEB1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E08F3A1C44B093006BEB1D /* ViewController.swift */; };
-		F2E08F3E1C44B093006BEB1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E08F3C1C44B093006BEB1D /* Main.storyboard */; };
 		F2E08F401C44B093006BEB1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E08F3F1C44B093006BEB1D /* Assets.xcassets */; };
 		F2E08F431C44B093006BEB1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E08F411C44B093006BEB1D /* LaunchScreen.storyboard */; };
+		F2E08F4B1C44B11F006BEB1D /* MorseTorch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E08F4A1C44B11F006BEB1D /* MorseTorch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F2E08F351C44B093006BEB1D /* MorseTorch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseTorch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E08F381C44B093006BEB1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2E08F3A1C44B093006BEB1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2E08F3D1C44B093006BEB1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2E08F3F1C44B093006BEB1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2E08F421C44B093006BEB1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2E08F441C44B093006BEB1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E08F4A1C44B11F006BEB1D /* MorseTorch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorseTorch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +56,10 @@
 			children = (
 				F2E08F381C44B093006BEB1D /* AppDelegate.swift */,
 				F2E08F3A1C44B093006BEB1D /* ViewController.swift */,
-				F2E08F3C1C44B093006BEB1D /* Main.storyboard */,
 				F2E08F3F1C44B093006BEB1D /* Assets.xcassets */,
 				F2E08F411C44B093006BEB1D /* LaunchScreen.storyboard */,
 				F2E08F441C44B093006BEB1D /* Info.plist */,
+				F2E08F4A1C44B11F006BEB1D /* MorseTorch.swift */,
 			);
 			path = MorseTorch;
 			sourceTree = "<group>";
@@ -125,7 +125,6 @@
 			files = (
 				F2E08F431C44B093006BEB1D /* LaunchScreen.storyboard in Resources */,
 				F2E08F401C44B093006BEB1D /* Assets.xcassets in Resources */,
-				F2E08F3E1C44B093006BEB1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,20 +137,13 @@
 			files = (
 				F2E08F3B1C44B093006BEB1D /* ViewController.swift in Sources */,
 				F2E08F391C44B093006BEB1D /* AppDelegate.swift in Sources */,
+				F2E08F4B1C44B11F006BEB1D /* MorseTorch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F2E08F3C1C44B093006BEB1D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2E08F3D1C44B093006BEB1D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F2E08F411C44B093006BEB1D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
